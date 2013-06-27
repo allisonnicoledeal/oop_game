@@ -9,7 +9,7 @@ SCREEN_Y = 1000
 
 game_window = pyglet.window.Window(SCREEN_X, SCREEN_Y)
 
-pyglet.resource.path = ["images/"]
+pyglet.resource.path = ["images/", "music/"]
 pyglet.resource.reindex()
 
 # Custom student changes
@@ -242,3 +242,9 @@ class UpdateWrapper(object):
 
 if __name__ == "__main__":
     run()
+
+    # sound testing
+   # source = pyglet.media.load(./music.wav)
+    #source.play()
+    #pyglet.app.run()
+
