@@ -215,7 +215,7 @@ def avalanche_check(seconds):
 
     # surroundings = [up, down, left, right]
     # object_types = [type(obj) for obj in surroundings]
-    # print object_types
+    # print object_type
     
 
     # if ("<type 'NoneType'>" in object_types): # or Gem in object_types: 
@@ -257,6 +257,7 @@ def avalanche_check(seconds):
 
 def initialize():
     """Put game initialization code here"""
+    # http://code.google.com/p/pyglet/issues/detail?id=203
     #create media Player
     radio = pyglet.media.Player()
     #load sound source file
